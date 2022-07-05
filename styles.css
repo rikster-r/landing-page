@@ -55,7 +55,8 @@ a {
     background-color:#1f2937;
     padding: 32px;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
+    gap: 48px;
 }
 
 .hero-info > h1 {
@@ -66,6 +67,7 @@ a {
 
 .hero-info > p {
     color:#e5e7eb;
+    margin-bottom: 32px;
 }
 
 .contact-button {
@@ -92,6 +94,7 @@ a {
 }
 
 .cards-container {
+    text-align:center;
     display:flex;
     justify-content: center;
     gap: 24px;
@@ -142,4 +145,17 @@ a {
 
 .contact-container .contact-button {
     border: 2px solid #f9fAf8;
+}
+
+img {
+    bottom:0;
+    right:0;        
+    height:400px;
+    width:auto;
+    max-width:95%;
+    border-radius: 8%;
+}
+
+.hero-container img {
+    max-height:95%;
 }
