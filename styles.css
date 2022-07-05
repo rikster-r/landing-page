@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300&display=swap');
+
+body {
+    font-family:"Roboto", sans-serif;
+    font-size:18px;
+    color:#1f2937;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+}
+
+.header {
+    background-color: #1f2937;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    color:#f9fAf8;
+    font-size:24px;
+    margin-left:30px;
+}
+
+ul {
+    margin-right:30px;
+    list-style: none;
+    display:flex;
+    gap:24px;
+}
+
+a {
+    color:#e5e7eb;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align:center;
+}
+
+.footer > p {
+    padding: 16px;
+}
+
+.content {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+.hero-container {
+    height: 60vh;
+    background-color:#1f2937;
+    padding: 32px;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-info > h1 {
+    font-size:48px;
+    font-weight: 900;
+    color:#f9fAf8
+}
+
+.hero-info > p {
+    color:#e5e7eb;
+}
+
+.contact-button {
+    text-align:center;
+    width: 150px;
+    background-color:#3882f6;
+    color:#f9fAf8;
+    border:0;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 12px;
+}
+
+.contact-button:hover {
+    cursor:pointer;
+}
+
+.info-container > h2 {
+    text-align: center;
+    margin: 40px auto;
+    font-size:36px;
+    font-weight: 900;
+}
+
+.cards-container {
+    display:flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 40px;
+}
+
+.card {
+    max-width:300px;
+}
+
+.quote-container {
+    height: 300px;
+    padding: 100px auto;
+    background-color:#e5e7eb;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-quote {
+    font-size: 36px;
+    font-style:italic;
+}
+
+.contact-container {
+    height: 200px;
+    padding:0px;
+    background-color: #3882f6;
+    border: 220px solid #f9fAf8;
+    border-top-width: 100px;
+    border-bottom-width: 100px;
+    overflow:hidden;
+    border-collapse: separate;
+    border-radius: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.contact-info h4 {
+    color:#f9fAf8;
+}
+
+.contact-info p {
+    color:#e5e7eb;
+}
+
+.contact-container .contact-button {
+    border: 2px solid #f9fAf8;
+}
